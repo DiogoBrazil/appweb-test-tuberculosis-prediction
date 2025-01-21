@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5001"  # Mapeia a porta 5001 do container para 8000 do host
+    volumes:
+      - ./src:/app/src
+    command: python src/app.py

@@ -1,2 +1,3 @@
 .venv
 .sesskey
+src/weights/best_model-18-01-2025.pth
